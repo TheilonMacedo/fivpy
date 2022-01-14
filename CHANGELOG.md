@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2022-01-14)
+### Fix
+* Add CI/CD workflow ([`f05b268`](https://github.com/TheilonMacedo/fivpy/commit/f05b268a13bb260244fd95fbb84095bb4afa4ab2))
+
 ## v0.2.0 (2022-01-14)
 ### Feature
 * Add CI/CD workflow ([`a05f7e6`](https://github.com/TheilonMacedo/fivpy/commit/a05f7e61d4121b96b0d5b9026fb6dab5a9b7f783))
