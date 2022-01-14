@@ -3,7 +3,7 @@ Module with functions to load the data used in examples.
 """
 
 import pandas as pd
-
+import os
 
 def data_1():
     """
@@ -22,7 +22,9 @@ def data_1():
     >>> data_1()
 
     """
-    return pd.read_csv('./src/fivpy/data/data_1.csv', sep=';', decimal=',')
+    filename = os.path.join(os.path.dirname(__file__),
+                            'data/data_1.csv')
+    return pd.read_csv(filename, sep=';', decimal=',')
 
 
 def data_2():
@@ -42,7 +44,9 @@ def data_2():
     >>> data_2()
 
     """
-    return pd.read_csv('./src/fivpy/data/data_2.csv', sep=';', decimal=',')
+    filename = os.path.join(os.path.dirname(__file__),
+                            'data/data_2.csv')
+    return pd.read_csv(filename, sep=';', decimal=',')
 
 def data_3():
     """
@@ -61,4 +65,11 @@ def data_3():
     >>> data_3()
 
     """
-    return pd.read_csv('./src/fivpy/data/data_2.csv', sep=';', decimal=',')
+    filename = os.path.join(os.path.dirname(__file__),
+                            'data/data_3.csv')
+    return pd.read_csv(filename, sep=';', decimal=',')
+
+if __name__ == '__main__':
+    print(data_1())
+    print(data_2())
+    print(data_3())
