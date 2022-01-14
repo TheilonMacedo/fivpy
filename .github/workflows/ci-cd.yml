@@ -35,4 +35,4 @@ jobs:
         fail_ci_if_error: true  # terminate workflow if an error occurs
     # Step 8. Build documentation
     - name: Build documentation
-      run: poetry run make html --directory docs/ 
+      run: poetry run make html --directory docs/
