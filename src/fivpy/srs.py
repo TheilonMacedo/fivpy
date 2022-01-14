@@ -7,13 +7,12 @@ import pandas as pd
 from scipy import stats
 
 
-
 logging.basicConfig(format='%(levelname)s - %(message)s', level=logging.DEBUG)
 
 
 class RandomSample:
     """Class to create a forest inventory object
-    which uses Simple Random Sampling to estimate total volume"""
+    which uses Simple Random Sampling to estimate total wood volume"""
 
     def __init__(self,
                  dataframe,
