@@ -22,7 +22,7 @@ def data_1():
     >>> data_1()
 
     """
-    return pd.read_csv('src/fivpy/data/data_1.csv', sep=';', decimal=',')
+    return pd.read_csv('./src/fivpy/data/data_1.csv', sep=';', decimal=',')
 
 
 def data_2():
@@ -42,7 +42,7 @@ def data_2():
     >>> data_2()
 
     """
-    return pd.read_csv('src/fivpy/data/data_2.csv', sep=';', decimal=',')
+    return pd.read_csv('./src/fivpy/data/data_2.csv', sep=';', decimal=',')
 
 def data_3():
     """
@@ -61,4 +61,4 @@ def data_3():
     >>> data_3()
 
     """
-    return pd.read_csv('src/fivpy/data/data_2.csv', sep=';', decimal=',')
+    return pd.read_csv('./src/fivpy/data/data_2.csv', sep=';', decimal=',')
