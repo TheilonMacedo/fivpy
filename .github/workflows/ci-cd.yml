@@ -1,13 +1,14 @@
 name: ci-cd
 
 on:
+  # Trigger the workflow on push or pull request,
+  # but only for the main branch
   push:
     branches:
-      - [main]
+      - main
   pull_request:
     branches:
-      - [main]
-
+      - main
 jobs:
   ci:
     # Step 1. Set up operating system
