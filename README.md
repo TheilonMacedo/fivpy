@@ -7,7 +7,7 @@ A python package to calculate forest inventories.
 ```bash
 $ pip install fivpy
 ```
-
+  
 ## Usage
 
 - 'fivpy' can be used to perform forest inventories for a dataset containing the columns units (with the sampled units), dbh or cbh (with the diameter or circunference of   the sampled tress) and height (with the height of the sampled trees).
