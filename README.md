@@ -13,7 +13,7 @@ $ pip install fivpy
 - 'fivpy' can be used to perform forest inventories for a dataset containing the columns units (with the sampled units), dbh or cbh (with the diameter or circunference of   the sampled tress) and height (with the height of the sampled trees).
 
 ## Examples
-```
+``` python
 import pandas as pd
 from fivpy import RandomSample
 
@@ -30,6 +30,7 @@ inventory_1 = RandomSample(data,
 # Calculating inventory atributes
 inventory_1.srs_inventory()
 ```
+For more infos and examples of usage please visit **https://fivpy.readthedocs.io/**
 
 ## Contributing
 
@@ -37,7 +38,7 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## License
 
-`fivpy` was created by Theilo Macedo. It is licensed under the terms of the MIT license.
+`fivpy` was created by Theilon Macedo. It is licensed under the terms of the MIT license.
 
 ## Credits
 
