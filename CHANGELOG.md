@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.3 (2022-01-14)
+### Fix
+* **src:** Fixing dataset loading functions ([`a10dd11`](https://github.com/TheilonMacedo/fivpy/commit/a10dd11c9cbefe1d099352e712b657567ff25dba))
+
+### Documentation
+* **readme:** Adding examples to readme file ([`e4cccfc`](https://github.com/TheilonMacedo/fivpy/commit/e4cccfccce35c0f2a76df609de2cc40e11fb9d19))
+
 ## v0.1.2 (2022-01-14)
 ### Fix
 * **__init__:** Updating invoking modules ([`d41c65a`](https://github.com/TheilonMacedo/fivpy/commit/d41c65a35ae822b1c23a5097783e89e1d06eebb5))
