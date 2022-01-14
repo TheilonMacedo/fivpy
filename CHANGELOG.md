@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.5 (2022-01-14)
+### Fix
+* **datasets:** Set the right dataset file path to data_<i> funcs ([`cbcdcd9`](https://github.com/TheilonMacedo/fivpy/commit/cbcdcd9fff3a9bc9c7e11aa4c9497f0ef7d3cbae))
+
 ## v0.1.4 (2022-01-14)
 ### Fix
 * **src:** Updating RandomSample _get_deg_free func ([`359df1d`](https://github.com/TheilonMacedo/fivpy/commit/359df1d2dd11701a44e785520177a4103fbcfeb8))
