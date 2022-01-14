@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.4 (2022-01-14)
+### Fix
+* **src:** Updating RandomSample _get_deg_free func ([`359df1d`](https://github.com/TheilonMacedo/fivpy/commit/359df1d2dd11701a44e785520177a4103fbcfeb8))
+
+### Documentation
+* **readme:** Adding documentation access link ([`e7a01c3`](https://github.com/TheilonMacedo/fivpy/commit/e7a01c31f3f580342b39dd859cd5dfe26a57e1ec))
+
 ## v0.1.3 (2022-01-14)
 ### Fix
 * **src:** Fixing dataset loading functions ([`a10dd11`](https://github.com/TheilonMacedo/fivpy/commit/a10dd11c9cbefe1d099352e712b657567ff25dba))
