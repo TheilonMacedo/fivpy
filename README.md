@@ -15,13 +15,13 @@ $ pip install fivpy
 ## Examples
 ``` python
 import pandas as pd
-from fivpy import RandomSample
+from fivpy import RandomSampling
 
 # Loading the data
 data = pd.read_csv('../src/fivpy/data/data_2.csv', sep=';', decimal=',')
 
 # Creating a inventory instance
-inventory_1 = RandomSample(data,
+inventory_1 = RandomSampling(data,
                             unit_area=0.02,
                             sampling_area=11,
                             significance=90,
