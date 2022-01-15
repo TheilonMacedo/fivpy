@@ -10,7 +10,7 @@ from scipy import stats
 logging.basicConfig(format='%(levelname)s - %(message)s', level=logging.DEBUG)
 
 
-class RandomSample:
+class RandomSampling:
     """Class to create a forest inventory object
     which uses Simple Random Sampling to estimate total wood volume"""
 
@@ -155,13 +155,13 @@ class RandomSample:
         mre = self.mean - (t_value_uni * sem)
         mre_population = (self.mean - (t_value_uni * sem)) * self.total_units
 
-        results = {"Variáveis": ["Ym", "DesvPad", "CV", "S²", "N parcelas",
-                                 "N Total", "ErrMédia", "V Total",
-                                "Err", "E(%)", "IC Supe", "IC Infe", "Ym/ha",
-                                "IC Supe ha", "IC Infe ha",
-                                "Ym/total", "IC Supe total",
-                                "IC Infe total", "EMC", "EMC Pop"],
-                "Dados": [self.mean.item(), self.std.item(),
+        results = {"Variables": ["Ym", "StdDev", "CV", "S²", "N samples",
+                                 "N Total", "MeanErr", "Total V",
+                                "Err", "E(%)", "CI Supe", "CI Infe", "Ym/ha",
+                                "CI Supe ha", "CI Infe ha",
+                                "Ym/total", "CI Supe total",
+                                "CI Infe total", "MRE", "MRE Pop"],
+                "Data": [self.mean.item(), self.std.item(),
                           self.var_coef.item(), var.item(), self.deg_free,
                           self.total_units,
                             sem, total_vol.item(), sample_error,
