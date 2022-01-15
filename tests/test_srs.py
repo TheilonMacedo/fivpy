@@ -4,7 +4,7 @@ Tests for the Simple Random Sampling module
 
 import pytest
 import pandas as pd
-from fivpy.srs import RandomSample
+from fivpy.srs import RandomSampling
 
 
 @pytest.fixture
@@ -19,7 +19,7 @@ def test_get_vol(load_data_2):
     """
     Tests the add_dap function.
     """
-    test_inv = RandomSample(load_data_2,
+    test_inv = RandomSampling(load_data_2,
                             unit_area=0.02,
                             sampling_area=11,
                             significance=90,
@@ -29,7 +29,7 @@ def test_get_vol(load_data_2):
     assert expected == pytest.approx(actual, 0.01)
 
 def test_get_sample_size(load_data_1):
-    test_inv = RandomSample(load_data_1,
+    test_inv = RandomSampling(load_data_1,
                             unit_area=0.3,
                             sampling_area=46.8,
                             significance=95,
