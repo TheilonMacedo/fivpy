@@ -2,6 +2,14 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.6 (2022-01-15)
+### Fix
+* **RandomSampling:** Fix class name ([`e2fbeaf`](https://github.com/TheilonMacedo/fivpy/commit/e2fbeaf992172e815c10150947ce920aab403dd1))
+
+### Documentation
+* Update README.md file ([`7b84696`](https://github.com/TheilonMacedo/fivpy/commit/7b84696dc752cd692cdea934473f4afcdf389e39))
+* Update the docs examples for srs ([`81c2bba`](https://github.com/TheilonMacedo/fivpy/commit/81c2bbab9228c1a1a5f55afc99a0532d4cbfb3c1))
+
 ## v0.1.5 (2022-01-14)
 ### Fix
 * **datasets:** Set the right dataset file path to data_<i> funcs ([`cbcdcd9`](https://github.com/TheilonMacedo/fivpy/commit/cbcdcd9fff3a9bc9c7e11aa4c9497f0ef7d3cbae))

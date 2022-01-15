@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fivpy"
-version = "0.1.5"  
+version = "0.1.6"  
 description = "A package for calculating forest inventories in python."
 authors = ["Theilon Macedo"]
 license = "MIT"
